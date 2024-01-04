@@ -67,3 +67,13 @@ print(zf2)
 # %% Union 複合型
 def process_item(item: int | str):
     print(item)
+
+
+process_item(100)
+process_item("abc")
+
+# %% Optional
+item: Optional[str]
+item: str | None
+
+# %%
